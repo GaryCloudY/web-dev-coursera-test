@@ -1,0 +1,72 @@
+* {
+	font-family: Garamond;
+	font-size: 20px;
+}
+
+.navbar {
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-brand {
+	padding: 10px;
+	font-weight: 900;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-toggler {
+	margin: 10px;
+	border: 1;
+}
+
+.navbar-nav :hover, .navbar-nav :focus {
+	background: orange;
+}
+
+
+.division {
+	border-top: 0.5px solid white;
+	margin: 0 10px 0 10px;
+}
+
+h1 {
+	margin: 20px;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.container-fluid {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.row {
+	width: 100%;
+	margin: 0;
+}
+
+.subsection {
+	box-sizing: border-box;
+	background-color: #a0f2e8;
+	padding: 15px;
+	border-left: 10px white solid;
+	border-right: 10px #5410db solid;
+	margin: 10px 0 10px 0;
+}
+
+.section-title {
+	font-weight: 700;
+}
+
+.text-right {
+	color: #3402d8;
+	font-weight: 600;
+}
+
+a:hover > .text-right, a:focus > .text-right {
+	text-decoration: none;
+}
